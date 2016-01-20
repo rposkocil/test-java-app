@@ -1,7 +1,14 @@
 package cz.uhk.fim.rposkocil.testjavaapp;
 
 /**
- * Created by Radula on 20.1.2016.
+ * Test application to show DOCKER usages
  */
 public class Main {
+
+    public static void main(String [ ] args) {
+
+        System.out.println("TEST JAVA APP... Welcome!");
+
+    }
+
 }
