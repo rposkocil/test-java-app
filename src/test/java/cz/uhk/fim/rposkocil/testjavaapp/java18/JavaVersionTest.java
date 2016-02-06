@@ -1,13 +1,16 @@
 package cz.uhk.fim.rposkocil.testjavaapp.java18;
 
+import cz.uhk.fim.rposkocil.testjavaapp.Categories;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
 /**
  * JavaVersionTest
  */
 public class JavaVersionTest {
 
+    @Category(Categories.Java8Tests.class)
     @Test
     public void usingInnerClassTest() {
 
