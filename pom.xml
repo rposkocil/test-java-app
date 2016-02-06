@@ -10,18 +10,6 @@
 
     <profiles>
         <profile>
-            <id>java-5</id>
-            <activation>
-                <jdk>1.5</jdk>
-            </activation>
-        </profile>
-        <profile>
-            <id>java-6</id>
-            <activation>
-                <jdk>1.6</jdk>
-            </activation>
-        </profile>
-        <profile>
             <id>java-7</id>
             <activation>
                 <jdk>1.7</jdk>
