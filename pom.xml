@@ -16,6 +16,14 @@
             </activation>
             <build>
                 <defaultGoal>test</defaultGoal>
+                <resources>
+                    <resource>
+                        <directory>src/main/java/cz/uhk/fim/rposkocil/testjavaapp/java18</directory>
+                        <excludes>
+                            <exclude>*</exclude>
+                        </excludes>
+                    </resource>
+                </resources>
                 <plugins>
                     <plugin>
                         <artifactId>maven-surefire-plugin</artifactId>
@@ -56,8 +64,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                 </configuration>
             </plugin>
         </plugins>
