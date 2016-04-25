@@ -28,8 +28,10 @@
                         <artifactId>maven-compiler-plugin</artifactId>
                         <configuration>
                             <excludes>
-                                <exclude>**/src/main/java/cz/uhk/fim/rposkocil/testjavaapp/java18/*.java</exclude>
+                                <exclude>**/src/main/java/cz/uhk/fim/rposkocil/testjavaapp/java18/</exclude>
                             </excludes>
+                            <source>1.7</source>
+                            <target>1.7</target>
                         </configuration>
                     </plugin>
                 </plugins>
