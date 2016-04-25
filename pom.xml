@@ -17,21 +17,22 @@
             <build>
                 <plugins>
                     <plugin>
-                        <artifactId>maven-surefire-plugin</artifactId>
-                        <version>2.19.1</version>
-                        <configuration>
-                            <groups>cz.uhk.fim.rposkocil.testjavaapp.Categories$Java7Tests</groups>
-                        </configuration>
-                    </plugin>
-                    <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-compiler-plugin</artifactId>
                         <configuration>
                             <excludes>
-                                <exclude>**/src/main/java/cz/uhk/fim/rposkocil/testjavaapp/java18/</exclude>
+                                <exclude>**/src/main/java/cz/uhk/fim/rposkocil/testjavaapp/java18/**</exclude>
+                                <exclude>**/src/test/java/cz/uhk/fim/rposkocil/testjavaapp/java18/**</exclude>
                             </excludes>
                             <source>1.7</source>
                             <target>1.7</target>
+                        </configuration>
+                    </plugin>
+                    <plugin>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>2.19.1</version>
+                        <configuration>
+                            <groups>cz.uhk.fim.rposkocil.testjavaapp.Categories$Java7Tests</groups>
                         </configuration>
                     </plugin>
                 </plugins>
