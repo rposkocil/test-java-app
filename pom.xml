@@ -25,7 +25,7 @@
                                 <exclude>**/src/test/java/cz/uhk/fim/rposkocil/testjavaapp/java18/*.java</exclude>
                             </excludes>
                             <source>1.8</source>
-                            <target>1.7</target>
+                            <target>1.8</target>
                         </configuration>
                     </plugin>
                     <plugin>
